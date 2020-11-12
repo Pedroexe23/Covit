@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Top">45dp</dimen>
+    <dimen name="Left_Right">43dp</dimen>
+    <dimen name="SubTop">25dp</dimen>
+    <dimen name="imagen">100dp</dimen>
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Registrar_Paciente"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbar">
+
+    </include>
+    <LinearLayout
+        android:layout_marginTop="@dimen/Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Rut del Paciente"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/RutTXT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Nombre"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/NombreTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Apellido"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ApellidoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Fecha de Examen"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ExamenTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:inputType="datetime">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Area de Trabajo"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/TrabajoSP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right">
+
+                </Spinner>
+
+
+                <Switch
+                    android:id="@+id/CovitSch"
+                    android:layout_width="247dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Presenta síntomas de covid?"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </Switch>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Temperatura"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/TemperaturaTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:inputType="numberDecimal">
+
+                </EditText>
+
+                <Switch
+                    android:id="@+id/TosSch"
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Presenta tos?:"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </Switch>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:text="Presión arterial:"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/SubTop">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/PresionTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:inputType="number">
+
+                </EditText>
+
+                <Button
+                    android:id="@+id/Registrarbtn"
+                    android:text="Registrar"
+                    android:background="@color/Registrar"
+                    android:textColor="@color/blanco"
+                    android:layout_marginTop="@dimen/SubTop"
+                    android:layout_marginRight="@dimen/Left_Right"
+                    android:layout_marginLeft="@dimen/Left_Right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

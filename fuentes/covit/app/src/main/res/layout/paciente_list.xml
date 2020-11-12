@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/SubTop">
+
+    <ImageView
+        android:id="@+id/image_prod_lv"
+        android:layout_width="192dp"
+        android:layout_height="145dp"
+        android:layout_weight="1"></ImageView>
+
+    <TextView
+        android:id="@+id/nombre_pac_lv"
+        android:layout_width="259dp"
+        android:layout_height="146dp"
+        android:layout_weight="1">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/apellido_pac_lv"
+        android:layout_width="257dp"
+        android:layout_height="146dp"
+        android:layout_weight="1">
+
+    </TextView>
+</LinearLayout>

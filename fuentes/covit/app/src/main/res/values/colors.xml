@@ -2,8 +2,10 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#162AAE</color>
     <color name="color1">#10B891</color>
     <color name="blanco">#ffffff</color>
     <color name="negro">#000000</color>
+    <color name="Registrar">#441F85</color>
+    <color name="ToobarColor">#0F59ED</color>
 </resources>

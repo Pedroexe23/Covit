@@ -6,45 +6,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="horizontal">
+    >
 
     <LinearLayout
-        android:layout_marginTop="45dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Top"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Left_Right"
+            android:layout_marginRight="@dimen/Left_Right"
             android:text="Usuario"
             android:textColor="@color/negro"
-            android:textSize="25dp"
-            android:layout_marginLeft="43dp"
-            android:layout_marginRight="43dp">
-
+            android:textSize="@dimen/SubTop">
 
         </TextView>
+
         <EditText
             android:id="@+id/Rutxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="43dp"
-            android:layout_marginRight="43dp"
-            >
+            android:layout_marginLeft="@dimen/Left_Right"
+            android:layout_marginTop="@dimen/SubTop"
+            android:layout_marginRight="@dimen/Left_Right">
 
         </EditText>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="@dimen/Left_Right"
+            android:layout_marginTop="@dimen/SubTop"
+            android:layout_marginRight="@dimen/Left_Right"
             android:text="Contraseña"
             android:textColor="@color/negro"
-            android:textSize="25dp"
-            android:layout_marginRight="43dp"
-            android:layout_marginLeft="43dp">
+            android:textSize="@dimen/SubTop">
 
         </TextView>
 
@@ -52,21 +51,22 @@
             android:id="@+id/contrasenatxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:inputType="number"
-            android:layout_marginLeft="43dp"
-            android:layout_marginRight="43dp">
+            android:layout_marginLeft="@dimen/Left_Right"
+            android:layout_marginTop="@dimen/SubTop"
+            android:layout_marginRight="@dimen/Left_Right"
+            android:inputType="number">
 
         </EditText>
+
         <Button
             android:id="@+id/ingresarbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="43dp"
-            android:layout_marginLeft="43dp"
-            android:text="ingresar"
+            android:layout_marginLeft="@dimen/Left_Right"
+            android:layout_marginTop="@dimen/SubTop"
+            android:layout_marginRight="@dimen/Left_Right"
             android:background="@color/color1"
+            android:text="ingresar"
             android:textColor="@color/blanco">
 
         </Button>
