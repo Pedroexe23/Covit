@@ -105,13 +105,15 @@
                 </TextView>
 
                 <EditText
+                    android:clickable="true"
+                    android:focusable="false"
                     android:id="@+id/ExamenTxt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/Left_Right"
                     android:layout_marginTop="@dimen/SubTop"
                     android:layout_marginRight="@dimen/Left_Right"
-                    android:inputType="datetime">
+                    android:inputType="date">
 
                 </EditText>
 

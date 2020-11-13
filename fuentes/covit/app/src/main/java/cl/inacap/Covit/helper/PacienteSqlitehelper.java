@@ -17,8 +17,7 @@ public class PacienteSqlitehelper extends SQLiteOpenHelper {
             ",covit TEXT" +
             ",temperatura DOUBLE" +
             ",tos TEXT" +
-            ",presion INTEGER" +
-            ",foto INTERGER)";
+            ",presion INTEGER)";
 
     public PacienteSqlitehelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);

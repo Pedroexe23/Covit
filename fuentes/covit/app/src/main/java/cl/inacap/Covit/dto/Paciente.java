@@ -10,7 +10,7 @@ public class Paciente {
     private double Temperatura;
     private String Tos;
     private int Presion_Arterial;
-    private int foto;
+
 
     public String getRut_paciente() {
         return Rut_paciente;
@@ -84,11 +84,5 @@ public class Paciente {
         Presion_Arterial = presion_Arterial;
     }
 
-    public int getFoto() {
-        return foto;
-    }
 
-    public void setFoto(int foto) {
-        this.foto = foto;
-    }
 }
