@@ -3,8 +3,10 @@ package cl.inacap.Covit;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -188,6 +190,22 @@ public class Registrar_Paciente extends AppCompatActivity {
                         p.setPresion_Arterial(presion);
                         pacDAO.Save(p);
                         startActivity(new Intent(Registrar_Paciente.this, InicioSession.class));
+                    }else {
+
+                        AlertDialog.Builder alertas= new AlertDialog.Builder(Registrar_Paciente.this);
+
+                        alertas.setMessage((CharSequence) Errores)
+                                .setCancelable(true)
+                                .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int i) {
+
+                                        dialog.cancel();
+                                    }
+                                });
+                        AlertDialog titulo= alertas.create();
+                        titulo.setTitle("Error");
+                        titulo.show();
                     }
 
 
